@@ -24,4 +24,4 @@ const useLocalStorage = <T> (key: string, initialValue: T | (() => T)) => {
     return [ value, setValue ] as [ T, typeof setValue ];
 }
 
-export default useLocalStorage
+export default useLocalStorage;
